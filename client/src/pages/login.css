@@ -1,0 +1,120 @@
+
+.login-container {
+   max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #edf1f2;
+}
+
+
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #0d0c0c;
+  border-radius: 5px;
+  margin: 10px -10px;
+}
+
+.login-container button {
+  padding: 10px;
+  margin-left: 120px;
+  border: none;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #0e0f0f;
+  color: #efe8e8;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+}
+
+.login-container button:hover {
+  background-color: #555;
+}
+
+.tab-links {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically align items */
+  margin-bottom: 20px;
+  position: relative; /* For adding the line separator */
+}
+
+.tab-link {
+  padding: 10px 20px;
+  font-size: 18px;
+  text-align: center; /* Center the text */
+  text-decoration: none;
+  color: #0b0b0b;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  transition: background-color 0.3s, color 0.3s;
+  flex: 1; /* Take up equal space */
+}
+
+.tab-link:not(:last-child) {
+  margin-right: -1px; /* Remove right margin for all except the last one */
+}
+
+.tab-link.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.tab-divider {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 100%;
+  background-color: #ccc;
+  transform: translateX(-50%); /* Center the divider */
+  z-index: -1; /* Place the divider behind the buttons */
+}
+.google-login button{
+  width: 400px;
+  margin-left: 6px;
+  background-color: #0c0c0c;
+  margin-top: 8px;
+
+
+}
+
+.google-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust the height as needed */
+}
+
+.google-button {
+  border: none;
+  background-color: #0b0b0b; /* Google Blue */
+  color: white;
+  padding: 20px 20px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.google-image {
+  margin-right: 10px;
+  margin-left: 80px;
+}
+
+.go {
+  display: flex;
+  align-items: center;
+  font-size: 18px; /* Adjust font size as needed */
+}
+
+/* Optional: Add hover effect */
+.google-button:hover {
+  background-color: #0b0b0c; /* Darker Google Blue */
+  cursor: pointer;
+}

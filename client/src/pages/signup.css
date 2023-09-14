@@ -1,0 +1,99 @@
+
+.signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #edf1f2;
+  }
+  
+  /* Form styles */
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form input {
+    margin: 10px -10px;
+    padding: 10px;
+    border: 1px solid #111010;
+    border-radius: 5px;
+
+  }
+  
+  .signup-form button {
+    padding: 10px;
+    margin-left: 30px;
+    border: none;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #0e0f0f;
+    color: #efe8e8;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+  }
+  
+  .signup-form button:hover {
+    background-color: #373a3a; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
+  
+  /* Message styles */
+  .message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .success-message {
+    background-color: #dff0d8;
+    color: #3c763d;
+  }
+  
+  .error-message {
+    background-color: #f2dede;
+    color: #a94442;
+  }
+  .tab-links {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically align items */
+    margin-bottom: 20px;
+    position: relative; /* For adding the line separator */
+  }
+  
+  .tab-link {
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center; /* Center the text */
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    transition: background-color 0.3s, color 0.3s;
+    flex: 1; /* Take up equal space */
+  }
+  
+  .tab-link:not(:last-child) {
+    margin-right: -1px; /* Remove right margin for all except the last one */
+  }
+  
+  .tab-link:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .tab-divider {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background-color: #ccc;
+    transform: translateX(-50%); /* Center the divider */
+    z-index: -1; /* Place the divider behind the buttons */
+  }
+  

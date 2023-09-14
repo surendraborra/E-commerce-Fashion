@@ -1,0 +1,47 @@
+/* dashboardcontent.css */
+
+/* Dashboard container */
+.dashboardcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  
+  /* Info section container */
+  .info-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* Info cards */
+  .info-card {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    width: 250px;
+  }
+  
+  /* Info card headings */
+  .info-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Info card data */
+  .info-card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  

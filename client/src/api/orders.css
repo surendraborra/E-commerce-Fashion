@@ -1,0 +1,36 @@
+/* OrderDetails.css */
+.order-details {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .order-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .order-card {
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  
+  .cod {
+    background-color: #ffcccb; /* Light red for cash payments */
+  }
+  
+  .online {
+    background-color: #a0e7e5; /* Light blue for credit card payments */
+  }
+  
+  .paypal {
+    background-color: #d7aefb; /* Light purple for PayPal payments */
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  

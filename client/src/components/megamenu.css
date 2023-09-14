@@ -1,0 +1,141 @@
+.mega-menu-content {
+    width: 100vw;
+     position: fixed; 
+    top: fixed;
+     left: 0;
+     background-color: #292929;
+     box-shadow: none; 
+     border: none; 
+    
+  }
+  
+  .mega-menu-content h6 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .mega-menu-content ul {
+    list-style: none;
+  
+  }
+  
+   .mega-menu-content ul li {
+     box-Shadow: 'none !important'
+  }  
+  
+  .navbar .dropdown-menu {
+    box-shadow: none; 
+    background-color: transparent; 
+    border: none;
+  }
+  
+  .navbar .dropdown-menu ul li {
+    padding: 0;
+    text-decoration: none; /* Remove the padding around each dropdown item */
+  }
+  
+  .navbar .dropdown-menu ul li:hover {
+    background-color: #292929; /* Add background color on hover if desired */
+  }
+  .navbar-toggler {
+    padding: 0; 
+    background-color: transparent; 
+    border: none;
+  }
+  
+  .navbar-toggler:focus {
+    outline: none; /* Remove the focus outline */
+  }
+  
+  .nav-link.dropdown-toggle::after {
+    display: none; /* Hide the dropdown symbol */
+  }
+  
+  .nav-link.dropdown-toggle:hover {
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
+  .nav-link.dropdown-toggle::before {
+    content: ""; /* Remove the pseudo-element before the text */
+  }
+  
+  .link {
+    /* Define the default styles for the link */
+    color: rgb(246, 235, 235);
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    color:#FFFF00;
+    text-decoration:none;
+  }
+  
+  .moving-text {
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: moveText 15s linear infinite;
+    color: aliceblue;
+  }
+  
+  .moving-text:hover {
+    animation-play-state: paused;
+  }
+  
+  @keyframes moveText {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+   .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+  }
+  
+  .search-bar input[type="text"] {
+    margin-right: 10px;
+    padding: 8px;
+    width: 500px;
+    height: 30px;
+  }
+   
+   .user-cart {
+    display: flex;
+    align-items: center;
+    padding-left: 270px;
+  }
+  
+  .usericon,
+  .carticon {
+    margin-left: 10px;
+    cursor: pointer;
+    color: black;
+    font-size: 30px;
+  }
+
+  
+  .profile-icon,
+  .cart-icon {
+     font-size: 20px; 
+   
+    
+  }
+  .usericon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  } 
+  
+  .navbar{
+    margin-bottom: 50px;
+  }

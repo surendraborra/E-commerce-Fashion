@@ -1,0 +1,51 @@
+/* addproducts.css */
+
+.product-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .product-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .product-form input[type="text"],
+  .product-form input[type="file"],
+  .product-form button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 600px;
+  }
+  
+  .product-form input[type="file"] {
+    border: none;
+  }
+  
+  .product-form button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .product-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styles with different colors */
+  .product-form input[type="text"]:focus,
+  .product-form input[type="file"]:focus {
+    border-color: #007BFF; /* Change border color on focus */
+  }
+  
+  .product-form label.error {
+    color: #ff0000; /* Red color for error messages */
+    font-weight: normal; /* Remove bold for error messages */
+  }
+  
+  /* Customize colors as needed for other elements */
+  

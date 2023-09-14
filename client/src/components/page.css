@@ -1,0 +1,61 @@
+
+  .grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: rgb(232,222,210);
+background: linear-gradient(90deg, rgba(232,222,210,1) 0%, rgb(220, 210, 203) 29%, rgba(246,225,212,1) 47%, rgba(239,238,246,1) 61%, rgba(245,234,231,1) 80%, rgba(247,247,212,1) 90%);
+  }
+  
+  .grid-item {
+    width: 400px;
+    height: 300px; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Added for absolute positioning */
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    height: 120px;
+    width: 160px;
+  }
+  
+  .part img {
+    width: 100%;
+    height: 100px;
+  }
+  
+  .grid-item h3 {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 0 0;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  

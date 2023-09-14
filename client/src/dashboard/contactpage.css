@@ -1,0 +1,23 @@
+/* ContactDetails.css */
+.contact-details {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-details p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .contact-details p:first-child {
+    margin-top: 0;
+  }
+  
