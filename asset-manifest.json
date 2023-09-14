@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/E-commerce-Fashion/static/css/main.558d11a1.css",
+    "main.js": "/E-commerce-Fashion/static/js/main.271a9331.js",
+    "static/media/beauty.jpg": "/E-commerce-Fashion/static/media/beauty.52e4d938dcd0bc4666c6.jpg",
+    "static/media/wallets.jpg": "/E-commerce-Fashion/static/media/wallets.f053a8eea53f1fd31078.jpg",
+    "static/media/women.avif": "/E-commerce-Fashion/static/media/women.f6dbe8c5bc2d4447cb54.avif",
+    "static/media/kids.avif": "/E-commerce-Fashion/static/media/kids.76dc2dbdc874809f9128.avif",
+    "static/media/saree.png": "/E-commerce-Fashion/static/media/saree.cabe12d78ab247ef41fc.png",
+    "static/media/shirts.jpg": "/E-commerce-Fashion/static/media/shirts.054a15076ff4451df81d.jpg",
+    "static/media/slide1.avif": "/E-commerce-Fashion/static/media/slide1.05ba0fb928fd2d7c67db.avif",
+    "static/media/slide2.avif": "/E-commerce-Fashion/static/media/slide2.b5998e523dde27b3d584.avif",
+    "static/media/men.jpg": "/E-commerce-Fashion/static/media/men.5e5c44bf89a423b8588c.jpg",
+    "static/media/lipstick.jpg": "/E-commerce-Fashion/static/media/lipstick.5096e758bf8b306cdc6d.jpg",
+    "static/media/facewash.avif": "/E-commerce-Fashion/static/media/facewash.2b29c988c2cd248416de.avif",
+    "static/media/jeans.avif": "/E-commerce-Fashion/static/media/jeans.772104ce1af1141b6171.avif",
+    "static/media/logo.png": "/E-commerce-Fashion/static/media/logo.5238f5406b67110a4622.png",
+    "static/media/slide4.avif": "/E-commerce-Fashion/static/media/slide4.c92e53d7221730907c64.avif",
+    "static/media/slide5.avif": "/E-commerce-Fashion/static/media/slide5.ae2ba215410097fede56.avif",
+    "static/media/shoe.jpg": "/E-commerce-Fashion/static/media/shoe.3bec8d3d3c7cbb1bfc9d.jpg",
+    "static/media/slide3.avif": "/E-commerce-Fashion/static/media/slide3.c7156f2d0714a7fc1d9e.avif",
+    "static/media/shampoo.avif": "/E-commerce-Fashion/static/media/shampoo.0c591f72809ee8da6be2.avif",
+    "static/media/spray.jpeg": "/E-commerce-Fashion/static/media/spray.c125d827fa196eb5d042.jpeg",
+    "static/media/kid2.jpeg": "/E-commerce-Fashion/static/media/kid2.ae707b9126dcd3523af1.jpeg",
+    "index.html": "/E-commerce-Fashion/index.html",
+    "main.558d11a1.css.map": "/E-commerce-Fashion/static/css/main.558d11a1.css.map",
+    "main.271a9331.js.map": "/E-commerce-Fashion/static/js/main.271a9331.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.558d11a1.css",
+    "static/js/main.271a9331.js"
+  ]
+}
